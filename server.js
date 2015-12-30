@@ -12,7 +12,12 @@ var mongoose = require("mongoose");
 var hbs = require("hbs");
 
 //connect the data base
-mongoose.connect("mongodb://localhost/portfolio-app");
+mongoose.connect(
+  process.env.MONGOLAB_URI ||
+  process.env.MONGOHQ_URL ||
+  'mongodb://localhost/portfolio-app'
+);
+
 
 var Contact = require("./models/contact");
 
