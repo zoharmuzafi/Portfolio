@@ -1,5 +1,24 @@
 $(document).ready(function(){
 
+	//scroll to about section
+	$("#aboutBtn").on('click', function(e) {
+	   // prevent default anchor click behavior
+	   e.preventDefault();
+
+	   // store hash
+	   var hash = this.hash;
+
+	   // animate
+	   $('html, body').animate({
+	       scrollTop: $(hash).offset().top
+	     }, 300, function(){
+
+	       // when done, add hash to url
+	       // (default click behaviour)
+	       window.location.hash = hash;
+	     });
+	});
+
 	//scroll to resume section
 	$("#resumeBtn").on('click', function(e) {
 	   // prevent default anchor click behavior
