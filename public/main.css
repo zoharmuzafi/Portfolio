@@ -61,7 +61,7 @@ span{
 	color: black;
 }
 .articleDiv{
-	border-radius: 50%;
+	
 	background-color: #676565;
 	width: 46%;
 	margin-left: 20%
@@ -69,7 +69,8 @@ span{
 #article{
 	color: white;
 	font-family: 'Oswald', sans-serif;
-	padding-top: 30%;
+	font-size: 15px;
+	padding: 30% 5%;
 	color: #47ABC7;
 }
 #inIcon{
@@ -109,6 +110,7 @@ span{
 	}
 	#article{
 		padding-top: 23%;
+		font-size: 10px;
 	}
 	.infoButton{
 		margin-top: 1%;
