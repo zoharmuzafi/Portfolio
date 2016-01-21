@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
 }
 #details{
-	background-color: #676565;
+	background-color: #2a7489;
 	color: white;
 	padding-top: 4%;
 	position: fixed;
@@ -37,7 +37,7 @@ body{
 	margin-bottom: 80%;
 }
 article{
-	margin-top: 30%;
+	margin-top: 22%;
 	font-family: 'PT Sans', sans-serif;
 	margin-bottom: 50%;
 }
@@ -54,7 +54,7 @@ span{
 }
 
 .firstTitle{
-	color: #47ABC7;
+	color: #2a7489;
 	font-weight: 50;
 }
 .subTitle{
@@ -62,26 +62,25 @@ span{
 }
 .articleDiv{
 	
-	background-color: #676565;
-	width: 46%;
-	margin-left: 20%
+	background-color: #ededed;
+	width: 60%;
+	margin-left: 13%;
+	border-radius: 1%;
 }
 #article{
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	font-size: 15px;
-	padding: 30% 5%;
-	color: #47ABC7;
+	padding: 10%;
+
+
 }
 #inIcon{
-	width: 8%;
+	width: 20.75%;
 }
 #gitIcon{
-	width: 5.5%;
+	width: 14.5%;
 	margin-right: 0.75%;
 }
 #mailIcon{
-	width: 6.25%
+	width: 16.25%
 }
 #myCarousel{
 
@@ -98,6 +97,9 @@ span{
 .messageSent{
 	display: none;
 }
+#article p{
+	font-size: 15px;
+}
 @media(max-width: 1000px){
 	#details{
 		position: relative;
@@ -110,7 +112,6 @@ span{
 	}
 	#article{
 		padding-top: 23%;
-		font-size: 10px;
 	}
 	.infoButton{
 		margin-top: 1%;
