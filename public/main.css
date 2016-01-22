@@ -72,15 +72,10 @@ span{
 
 
 }
-#inIcon{
-	width: 20.75%;
-}
-#gitIcon{
-	width: 14.5%;
-	margin-right: 0.75%;
-}
-#mailIcon{
-	width: 16.25%
+i{
+	color: black;
+	font-size: 300%;
+	margin: 0% 2%; 
 }
 #myCarousel{
 
